@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Animais</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#acessibilidade">Menu de acessibilidade</a></li>
+                    <li><a href="#anfibios">Sobre os Anfíbios</a></li>
+                    <li><a href="#peixes">Sobre os Peixe</a></li>
+                    <li><a href="#repteis">Sobre os Répteis</a></li>
+                    <li><a href="#aves">Sobre as Aves</a></li>
+                    <li><a href="#mamiferos">Sobre os Mamíferos</a></li>
+                    <li><a href="#forms">Complete o Formulário</a></li>
+                </ul>
+            </nav>
+
+            <h1>Vamos falar sobre animais?</h1>
+
+            <hr>
+            <h3 id="acessibilidade">Menu de acessibilidade</h3>
+            <button onclick="bionicReading()" aria-label="Leitura facilitada" role="button">
+                <img src="icons/glasses-solid.svg" alt="ícone de óculos">
+                Leitura facilitada
+            </button>
+            <button onclick="nonBionicReading()" aria-label="Texto normal" role="button">
+                <img src="icons/glasses-solid.svg" alt="ícone de óculos">
+                Texto normal
+            </button>
+            <button onclick="aumentarTexto()" aria-label="Aumentar fonte do texto" role="button">
+                <img src="icons/magnifying-glass-plus-solid.svg" alt="ícone de lupa mais">
+                Aumentar fonte do texto
+            </button>
+            <button onclick="diminuirTexto()" aria-label="Dimiuir fonte do texto" role="button">
+                <img src="icons/magnifying-glass-minus-solid.svg" alt="ícone de lupa menos">
+                Dimiuir fonte do texto
+            </button>
+            <hr>
+        </header>
+
+        <main>
+        <div id="anfibios">
+            <div class="title">
+                <div class="box">
+                    <img src="icons/frog-solid.svg" alt="ícone de sapo">
+                </div>
+                <div class="box">
+                    <h2>Anfíbios</h2>
+                </div>
+            </div>
+            <p class="about-text">
+                <span class="bio-reading">O</span>s <span class="bio-reading">anfí</span>bios <span class="bio-reading">sã</span>o <span class="bio-reading">verte</span>brados 
+                <span class="bio-reading">qu</span>e <span class="bio-reading">pass</span>am <span class="bio-reading">po</span>r <span class="bio-reading">u</span>m <span class="bio-reading">est</span>ágio 
+                <span class="bio-reading">lar</span>val <span class="bio-reading">aquá</span>tico e <span class="bio-reading">u</span>m 
+                <span class="bio-reading">está</span>gio <span class="bio-reading">adu</span>lto <span class="bio-reading">terre</span>stre. 
+                <span class="bio-reading">Exem</span>plos <span class="bio-reading">incl</span>uem <span class="bio-reading">sap</span>os, <span class="bio-reading">salam</span>andras e <span class="bio-reading">rã</span>s. 
+                <span class="bio-reading">El</span>es <span class="bio-reading">tê</span>m <span class="bio-reading">um</span>a <span class="bio-reading">pe</span>le <span class="bio-reading">fi</span>na 
+                e <span class="bio-reading">úmi</span>da e, <span class="bio-reading">mui</span>tas <span class="bio-reading">vez</span>es, 
+                <span class="bio-reading">sã</span>o <span class="bio-reading">sensí</span>veis <span class="bio-reading">à</span>s <span class="bio-reading">muda</span>nças 
+                <span class="bio-reading">ambie</span>ntais. A <span class="bio-reading">maio</span>ria <span class="bio-reading">do</span>s <span class="bio-reading">anfí</span>bios 
+                <span class="bio-reading">real</span>iza a <span class="bio-reading">respi</span>ração <span class="bio-reading">atra</span>vés <span class="bio-reading">d</span>a 
+                <span class="bio-reading">pe</span>le e <span class="bio-reading">pulm</span>ões.
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="peixes">
+            <div class="title">
+                <div class="box">
+                    <img src="icons/fish-fins-solid.svg" alt="ícone de peixe">
+                </div>
+                <div class="box">
+                    <h2>Peixes</h2>
+                </div>
+            </div>
+            <p class="about-text">
+                <span class="bio-reading">O</span>s <span class="bio-reading">pei</span>xes <span class="bio-reading">sã</span>o 
+                <span class="bio-reading">anim</span>ais <span class="bio-reading">aquát</span>icos <span class="bio-reading">verteb</span>rados 
+                <span class="bio-reading">qu</span>e <span class="bio-reading">respi</span>ram <span class="bio-reading">atra</span>vés <span class="bio-reading">d</span>e
+                <span class="bio-reading">brân</span>quias. <span class="bio-reading">El</span>es <span class="bio-reading">var</span>iam <span class="bio-reading">des</span>de 
+                <span class="bio-reading">pequ</span>enos <span class="bio-reading">pei</span>xes <span class="bio-reading">tropi</span>cais <span class="bio-reading">color</span>idos 
+                <span class="bio-reading">at</span>é <span class="bio-reading">gran</span>des <span class="bio-reading">preda</span>dores <span class="bio-reading">oceân</span>icos. 
+                <span class="bio-reading">O</span>s <span class="bio-reading">pei</span>xes <span class="bio-reading">poss</span>uem <span class="bio-reading">nadad</span>eiras <span class="bio-reading">pa</span>ra 
+                <span class="bio-reading">nad</span>ar e <span class="bio-reading">esca</span>mas <span class="bio-reading">pa</span>ra <span class="bio-reading">prot</span>eção. 
+                <span class="bio-reading">El</span>es <span class="bio-reading">desemp</span>enham <span class="bio-reading">u</span>m <span class="bio-reading">pap</span>el 
+                <span class="bio-reading">cruc</span>ial <span class="bio-reading">no</span>s <span class="bio-reading">ecossi</span>stemas <span class="bio-reading">aquát</span>icos, 
+                <span class="bio-reading">sen</span>do <span class="bio-reading">um</span>a <span class="bio-reading">fon</span>te <span class="bio-reading">vit</span>al <span class="bio-reading">d</span>e 
+                <span class="bio-reading">alim</span>ento <span class="bio-reading">pa</span>ra <span class="bio-reading">mui</span>tas <span class="bio-reading">espé</span>cies.
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="repteis">
+            <div class="title">
+                <div class="box">
+                    <img src="icons/worm-solid.svg" alt="ícone de cobra">
+                </div>
+                <div class="box">
+                    <h2>Répteis</h2>
+                </div>
+            </div>
+            <p><span class="bio-reading">Rép</span>teis são animais de <span class="bio-reading">san</span>gue frio que incluem 
+                <span class="bio-reading">lag</span>artos, <span class="bio-reading">ser</span>pentes, <span class="bio-reading">tar</span>tarugas 
+                e <span class="bio-reading">cro</span>codilos. <span class="bio-reading">El</span>es possuem <span class="bio-reading">esca</span>mas 
+                que protegem contra a perda de água e <span class="bio-reading">pre</span>da<span class="bio-reading">dores</span>. 
+                A <span class="bio-reading">maio</span>ria dos répteis põe ovos, embora alguns tenham reprodução 
+                <span class="bio-reading">vi</span>ví<span class="bio-reading">para</span>. <span class="bio-reading">Su</span>a adaptação ao 
+                <span class="bio-reading">ambi</span>ente <span class="bio-reading">terres</span>tre é evidente em suas escamas e 
+                habilidades de <span class="bio-reading">loco</span>moção.
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="aves">
+            <div class="title">
+                <div class="box">
+                    <img src="icons/dove-solid.svg" alt="ícone de pássaro">
+                </div>
+                <div class="box">
+                    <h2>Aves</h2>
+                </div>
+            </div>
+            <p><span class="bio-reading">As</span> <span class="bio-reading">aves</span> são caracterizadas por 
+                <span class="bio-reading">pe</span>nas, <span class="bio-reading">asas</span> e bicos córneos. São animais 
+                <span class="bio-reading">en</span>do<span class="bio-reading">tér</span>micos, o que significa que podem 
+                regular a temperatura do corpo. <span class="bio-reading">As</span> aves variam desde pequenos 
+                <span class="bio-reading">beija-flores</span> até grandes aves de <span class="bio-reading">ra</span>pina. 
+                A <span class="bio-reading">capa</span>cidade de <span class="bio-reading">voar</span> é uma característica 
+                distintiva, mas algumas aves, como <span class="bio-reading">aves</span>truzes, são não voadoras.
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="mamiferos">
+            <div class="title">
+                <div class="box">
+                    <img src="icons/cow-solid.svg" alt="ícone de vaca">
+                </div>
+                <div class="box">
+                    <h2>Mamíferos</h2>
+                </div>
+            </div>
+            <p><span class="bio-reading">Os</span> <span class="bio-reading">mamí</span>feros são animais de <span class="bio-reading">san</span>gue quente 
+                que se caracterizam pela presença de glândulas <span class="bio-reading">ma</span>márias que produzem leite 
+                para alimentar os filhotes. <span class="bio-reading">El</span>es têm pelos ou cabelos e geralmente dão à luz 
+                a filhotes <span class="bio-reading">vi</span>vos. <span class="bio-reading">Mamí</span>feros incluem uma vasta gama 
+                de animais, desde pequenos <span class="bio-reading">ro</span>edores até grandes <span class="bio-reading">ba</span>leias e 
+                <span class="bio-reading">el</span>efantes. A <span class="bio-reading">in</span>teli<span class="bio-reading">gên</span>cia e adaptação 
+                são <span class="bio-reading">no</span>táveis em muitas espécies de mamíferos.            
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="forms">
+            <h2>Responda algumas perguntas para nos ajudar a entender mais a sua visão sobre os animais</h2>
+            <iframe title="Form office sobre animais" width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=k48R3u41CkqLhjR4-YtqcNA0lhAyPipFgvG1_6cyjTVUN09LRFZOWEQwRVpTMTYwM1JIU1Q2MEw4Ty4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        </div>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Nathália Couto e Lorena Seabra</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

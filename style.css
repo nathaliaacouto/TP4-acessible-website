@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1E3050;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #2f405d;
+}
+
+.title {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
