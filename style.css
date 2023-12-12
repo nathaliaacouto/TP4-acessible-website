@@ -37,6 +37,20 @@ li a:hover {
     margin-bottom: 0;
 }
 
-.bold {
+button {
+    padding: 8px;
+    background-color: rgb(230, 230, 230);
+    border: 2px solid #1E3050;
+    border-radius: 6px;
+}
+
+button:hover {
+    color: #1E3050;
+    cursor: pointer;
+}
+
+#acessibilidade {
+    font-size: 20px;
     font-weight: bold;
+    margin-bottom: 7px;
 }

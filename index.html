@@ -12,7 +12,7 @@
                 <ul>
                     <li><a href="#acessibilidade">Menu de acessibilidade</a></li>
                     <li><a href="#anfibios">Sobre os Anfíbios</a></li>
-                    <li><a href="#peixes">Sobre os Peixe</a></li>
+                    <li><a href="#peixes">Sobre os Peixes</a></li>
                     <li><a href="#repteis">Sobre os Répteis</a></li>
                     <li><a href="#aves">Sobre as Aves</a></li>
                     <li><a href="#mamiferos">Sobre os Mamíferos</a></li>
@@ -21,25 +21,25 @@
             </nav>
 
             <h1>Vamos falar sobre animais?</h1>
-
-            <hr>
-            <h3 id="acessibilidade">Menu de acessibilidade</h3>
-            <button onclick="bionicReading()" aria-label="Leitura facilitada" role="button">
-                <img src="icons/glasses-solid.svg" alt="ícone de óculos">
-                Leitura facilitada
-            </button>
-            <button onclick="nonBionicReading()" aria-label="Texto normal" role="button">
-                <img src="icons/glasses-solid.svg" alt="ícone de óculos">
-                Texto normal
-            </button>
-            <button onclick="aumentarTexto()" aria-label="Aumentar fonte do texto" role="button">
-                <img src="icons/magnifying-glass-plus-solid.svg" alt="ícone de lupa mais">
-                Aumentar fonte do texto
-            </button>
-            <button onclick="diminuirTexto()" aria-label="Dimiuir fonte do texto" role="button">
-                <img src="icons/magnifying-glass-minus-solid.svg" alt="ícone de lupa menos">
-                Dimiuir fonte do texto
-            </button>
+            <details>
+                <summary id="acessibilidade">Clique aqui para o Menu de Acessibilidade</summary>
+                <button onclick="bionicReading()" aria-label="Leitura facilitada" role="button">
+                    <img src="icons/glasses-solid.svg" alt="ícone de óculos">
+                    Leitura facilitada
+                </button>
+                <button onclick="textoNormal()" aria-label="Texto normal" role="button">
+                    <img src="icons/glasses-solid.svg" alt="ícone de óculos">
+                    Texto normal
+                </button>
+                <button onclick="aumentarTexto()" aria-label="Aumentar fonte do texto" role="button">
+                    <img src="icons/magnifying-glass-plus-solid.svg" alt="ícone de lupa mais">
+                    Aumentar fonte do texto
+                </button>
+                <button onclick="diminuirTexto()" aria-label="Dimiuir fonte do texto" role="button">
+                    <img src="icons/magnifying-glass-minus-solid.svg" alt="ícone de lupa menos">
+                    Dimiuir fonte do texto
+                </button>
+            </details>
             <hr>
         </header>
 
@@ -168,7 +168,9 @@
         </main>
 
         <footer>
-            <p>Desenvolvido por Nathália Couto e Lorena Seabra</p>
+            <p>Desenvolvido por Nathália Couto e Lorena Seabra para o trabalho 4 da cadeira 
+                "Acessibilidade e Usabilidade de Interfaces"
+            </p>
         </footer>
         <script src="script.js"></script>
     </body>

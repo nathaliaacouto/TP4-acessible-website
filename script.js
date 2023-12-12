@@ -5,10 +5,14 @@ function bionicReading() {
     });
 }
 
-function nonBionicReading() {
+function textoNormal() {
     var elementos = document.querySelectorAll('.bio-reading');
     elementos.forEach(function (elemento) {
         elemento.style.fontWeight = 'normal';
+    });
+    var textos = document.querySelectorAll('.about-text');
+    textos.forEach(function (elemento) {
+        elemento.style.fontSize = '16px';
     });
 }
 
